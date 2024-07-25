@@ -1,4 +1,4 @@
-const quizData = [
+  const quizData = [
   {
     question: "Are you self-displined?"
     options: [yes, no],
@@ -46,4 +46,17 @@ const quizData = [
   },
   
 ];
+
+const questionElement = document.getElementById("question");
+const optionsElement = document.getElementById("options");
+const submitButton = document.getElementById("submit");
+
+/* USURE IF WE NEED
+    let currentQuestion = 0;
+     let score = 0; */
+
+
+
+
+
   console.log('hello world! Project initialized')
