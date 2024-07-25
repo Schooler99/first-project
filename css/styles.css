@@ -82,6 +82,17 @@ main{
     margin-top: 1rem;
     text-align: center;
 }
+.dog-images {
+  padding: 30px;
+  max-width:500px;
+  max-height:500px;
+  min-width:300px;
+  min-height:300px;
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 8px;
+}
 
 footer{
     position: fixed;
