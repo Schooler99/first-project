@@ -91,7 +91,16 @@ function showQuestion() {
       <p>Your score: ${score}/${quizData.length}</p>
     `;
   }
+// Function to display the final quiz results https://www.shecodes.io/athena/59004-how-to-create-a-standard-quiz-with-html-css-and-javascript
   
+function showResults() {
+  
+    questionContainer.style.display = "none";
+    resultsContainer.style.display = "block";
+    totalSpan.textContent = quizData.length;
+    correctSpan.textContent = numCorrect;
+  }
+
   showQuestion();
 
   console.log('hello world! Project initialized')
