@@ -80,8 +80,8 @@ function showQuestion() {
   
 function showResults() {
   
-    questionContainer.style.display = "none";
-    resultsContainer.style.display = "block";
+    quizdata.style.display = "none";
+    quizdata.style.display = "block";
     totalSpan.textContent = quizData.length;
     correctSpan.textContent = numCorrect;
   }
