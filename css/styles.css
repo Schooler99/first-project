@@ -124,3 +124,8 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
   /* … */
 }
+dialog {
+  width: 780px;
+  padding: 100px 30px 100px 100px;
+  
+}
