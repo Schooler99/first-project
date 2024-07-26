@@ -113,7 +113,24 @@ function showResults() {
     totalSpan.textContent = quizData.length;
     correctSpan.textContent = numCorrect;
   }
+// form at end of quiz 
+  const firstNameInput = document.querySelector('#first-name');
+const lastNameInput = document.querySelector('#last-name');
+const emailInput = document.querySelector('#email');
 
-  showQuestion();
+signUpButton.addEventListener('click', function (event) {
+  event.preventDefault();
 
+  // create user object from submission
+  const user = {
+    firstName: firstNameInput.value.trim(),
+    lastName: lastNameInput.value.trim(),
+    email: emailInput.value.trim(),
+     };
+
+  // set new submission to local storage
+  localStorage.setItem('user', JSON.stringify(user));
+});
+
+//Should be last page. 
   console.log('hello world! Project initialized')
