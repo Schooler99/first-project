@@ -2,64 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Preferences</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Preferences</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Are You a Dog, Cat, or Reptile Person? Find Out Today!</h1>
-        <dialog open>
-            <h2 class="start-quiz">Hello, let's do a little quiz!</h2>
-            <form method="dialog">
-                <button class="start-button">OK</button>
-            </form>
-        </dialog>
-         <div class="image-row">
-    <img src="https://github.com/user-attachments/assets/e347d159-dfc2-4c60-897f-92648262a409" alt="Dog" class="image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtP7hHM9hB39boL1zs9Dm-AWn7QkcSCPUAA&s" alt="Cat" class="image">
-    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-10/221004-barney-dinosaur-al-1132-c8ea46.jpg" alt="Dinosaur" class="image">
-</div>
-        
-       <h3 class="quiz-question">Are you self-disciplined</h3>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">Yes</label>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">No</label>
-        <h3 class="quiz-question">Are you easily stressed? </h3>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">Yes</label>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">No</label>
-        <h3 class="quiz-question">Do you prefer to spend time on your own?</h3>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">Yes</label>
-      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-<label for="checkbox_id">No</label>
-        <div id="quiz">
-            <div id="question">
-            <div id="options">
-            <button id="submit">Submit</button>
-            </div>
-            </div>
-        </div>
-        <p></p>
-    </main>
-    <footer>
-        &copy; 2024 All rights reserved.
-    </footer>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Are You a Dog, Cat, or Reptile Person? Find Out Today! </h1>
+    <div class="image-row">
+      <img src="https://github.com/user-attachments/assets/e347d159-dfc2-4c60-897f-92648262a409" alt="Dog" class="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtP7hHM9hB39boL1zs9Dm-AWn7QkcSCPUAA&s" alt="Cat" class="image">
+      <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-10/221004-barney-dinosaur-al-1132-c8ea46.jpg" alt="Dinosaur" class="image">
+    </div>
+
+    <dialog open>
+      <h2>Hello, let's do a little quiz!</h2>
+      <form method="dialog">
+        <button class="start-button">OK</button>
+      </form>
+    </dialog>
+
+    <fieldset>
+      <legend>Are You Self Disiplined?</legend>
+
+      <div>
+        <input type="radio" id="yes" name="drone" value="yes" checked />
+        <label for="yes">Yes</label>
+      </div>
+
+      <div>
+        <input type="radio" id="no" name="drone" value="no" />
+        <label for="no">No</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Are You Self Disiplined?</legend>
+
+      <div>
+        <input type="radio" id="yes" name="drone" value="yes" checked />
+        <label for="yes">Yes</label>
+      </div>
+
+      <div>
+        <input type="radio" id="no" name="drone" value="no" />
+        <label for="no">No</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Are You Self Disiplined?</legend>
+
+      <div>
+        <input type="radio" id="yes" name="drone" value="yes" checked />
+        <label for="yes">Yes</label>
+      </div>
+
+      <div>
+        <input type="radio" id="no" name="drone" value="no" />
+        <label for="no">No</label>
+      </div>
+    </fieldset>
+
+    <button id="submit">Submit</button>
+    </div>
+    </div>
+    </div>
+    <p></p>
+  </main>
+  <footer>
+    &copy; 2024 All rights reserved.
+  </footer>
 </body>
 
 </html>
