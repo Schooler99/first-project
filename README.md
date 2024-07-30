@@ -24,7 +24,7 @@ Link to Boot CSS Strap <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/
 
 Have a workable question and answers 
 Inline-style: 
-![alt text]: https://github.com/Schooler99/first-project/blob/main/screenshot_2024-07-25_at_7.28.59___pm%20(1).png
+![alt text] (https://github.com/Schooler99/first-project/blob/main/screenshot_2024-07-25_at_7.28.59___pm%20(1).png)
 
 Acknowledgements of all contributors to the project: 
 Claree Ratliff 
