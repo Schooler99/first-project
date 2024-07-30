@@ -40,7 +40,10 @@ const quizData = [
     options: ["yes", "no"],
     answer: "Cat"
   }]
-
+document.querySelector('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  submitAnswers();
+})
 
 
 const questionElement = document.getElementById("question");
