@@ -37,42 +37,52 @@
             </form>
         </dialog>
 
-        <fieldset>
-            <legend>Do like the outdoors? </legend>
+    <form id="form">
+      <fieldset>
+        <legend>Do you like the outdoors?</legend>
+        <div>
+          <input type="radio" id="outdoors-yes" name="outdoors" value="yes" checked />
+          <label for="outdoors-yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="outdoors-no" name="outdoors" value="no" />
+          <label for="outdoors-no">No</label>
+        </div>
+      </fieldset>
 
-            <div>
-                <input type="radio" id="yes" name="drone" value="yes" checked />
-                <label for="yes">Yes</label>
-            </div>
+      <fieldset>
+        <legend>Are you neurotic or easily stressed?</legend>
+        <div>
+          <input type="radio" id="neurotic-yes" name="neurotic" value="yes" checked />
+          <label for="neurotic-yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="neurotic-no" name="neurotic" value="no" />
+          <label for="neurotic-no">No</label>
+        </div>
+      </fieldset>
 
+      <fieldset>
+        <legend>Are you independent and nature conservationist?</legend>
+        <div>
+          <input type="radio" id="independent-yes" name="independent" value="yes" checked />
+          <label for="independent-yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="independent-no" name="independent" value="no" />
+          <label for="independent-no">No</label>
+        </div>
+      </fieldset>
 
-            <h3 class="quiz-question">Are you self-disciplined</h3>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ1y">
-            <label for="checkbox_id">Yes</label>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ1n">
-            <label for="checkbox_id">No</label>
-            <h3 class="quiz-question">Are you easily stressed? </h3>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ2y">
-            <label for="checkbox_id">Yes</label>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ2n">
-            <label for="checkbox_id">No</label>
-            <h3 class="quiz-question">Do you prefer to spend time on your own?</h3>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ3y">
-            <label for="checkbox_id">Yes</label>
-            <input type="checkbox" name="checkbox" id="checkbox_idQ3n">
-            <label for="checkbox_id">No</label>
-            <div id="quiz">
-                <div id="question">
-                    <div id="options">
-                        <button id="submit">Submit</button>
-                    </div>
-                </div>
-            </div>
-            <p></p>
-    </main>
-    <footer>
-        &copy; 2024 All rights reserved.
-    </footer>
+      <button id="submit">Submit</button>
+    </form>
+    <output id="output"></output>
+  </main>
+
+  <div class="spacer"></div>
+  <footer>
+    &copy; 2024 All rights reserved.
+  </footer>
 </body>
 
 </html>
