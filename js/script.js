@@ -34,8 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     output.textContent = result;
-
-    //Should be last page. 
-  console.log('hello world! Project initialized')
+    
   });
 });
