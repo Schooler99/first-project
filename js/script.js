@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
       result = 'You are a Dog person!';
     } else if (outdoors === 'no' && neurotic === 'yes' && independent === 'no') {
       result = 'You are a Cat person!';
-    } else if (outdoors === 'yes' && neurotic === 'no' && independent === 'no') {
+    } else if (outdoors === 'yes' && neurotic === 'no' && independent === 'yes') {
       result = 'You are a Reptile person!';
-    {
-      result = 'Your Preference is a Tamagotchi!';
+    } else {
+      result = 'Your preference is a Tamagotchi!';
     }
+
     output.textContent = result;
-    
   });
 });
