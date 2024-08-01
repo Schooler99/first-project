@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let result = '';
 
-    if (outdoors === 'yes' && neurotic === 'no' && independent === 'yes') {
+    if (outdoors === 'yes' && neurotic === 'no' && independent === 'no') {
       result = 'You are a Dog person!';
     } else if (outdoors === 'no' && neurotic === 'yes' && independent === 'no') {
       result = 'You are a Cat person!';
