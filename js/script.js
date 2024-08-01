@@ -29,10 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
       result = 'You are a Cat person!';
     } else if (outdoors === 'yes' && neurotic === 'no' && independent === 'no') {
       result = 'You are a Reptile person!';
-    } else {
-      result = 'Your preferences are unique!';
+    {
+      result = 'Your Preference is a Tamagotchi!';
     }
-
     output.textContent = result;
     
   });
